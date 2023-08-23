@@ -1,0 +1,45 @@
+/* vars */
+
+/* end vars */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:any-link {
+	text-decoration: none;
+}
+
+.container {
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+
+section {
+	margin-bottom: 200px;
+}
+
+.section-title {
+	font-size: 28px;
+	color: darkcyan;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
